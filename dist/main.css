@@ -1,0 +1,32 @@
+body {
+  background: rgb(74, 95, 74);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header input {
+  width: 250px;
+  height: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.submitWeather {
+  padding: 12px;
+  background-color: gray;
+  border-radius: 10px;
+  margin-left: 2rem;
+}
